@@ -163,6 +163,8 @@ GLOBAL_LIST_EMPTY(cargo_landing_spots)
 /obj/machinery/computer/cargo/express/get_discount()
 	return (obj_flags & EMAGGED) ? EXPRESS_EMAG_DISCOUNT : 1
 
+/obj/machinery/computer/cargo/express/proc/take_fee_from_purchasement(account, accounter_machine)
+
 /obj/machinery/computer/cargo/express/ui_act(action, params, datum/tgui/ui)
 	. = ..()
 	if(.)
