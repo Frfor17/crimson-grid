@@ -132,7 +132,7 @@
 	name = "machinegun Kulak"
 	desc = "many bullets"
 	lefthand_file = 'modular_vcg/modules/weapons/icons/lefthand.dmi'
-    righthand_file = 'modular_vcg/modules/weapons/icons/righthand.dmi'
+	righthand_file = 'modular_vcg/modules/weapons/icons/righthand.dmi'
 	worn_icon = 'modular_vcg/modules/weapons/icons/worn_guns.dmi'
 	ONFLOOR_ICON_HELPER('modular_vcg/modules/weapons/icons/weapons_onfloor.dmi')
 	icon_state = "pecheneg"
