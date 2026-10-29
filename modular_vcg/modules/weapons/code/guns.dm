@@ -159,7 +159,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 
-	accepted_magazine_type = /obj/item/ammo_box/magazine/darkpack762x51fal
+	accepted_magazine_type = /obj/item/ammo_box/magazine/machinegun/kulak
 
 	spread = 100 // on the 100 m ->
 	can_suppress = TRUE
