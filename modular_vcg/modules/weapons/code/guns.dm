@@ -128,9 +128,23 @@
 
 // Pulemet "Kulak"
 
+/obj/item/ammo_box/magazine/machinegun/kulak
+	name = "machinegun's box (7.62x54mm)"
+
+	icon = 'modular_darkpack/modules/weapons/icons/ammo.dmi'
+	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
+	icon_state = "308mag"
+
+	ammo_type = /obj/item/ammo_casing/vampire/c762x54mm
+
+	caliber = CALIBER_762NATO
+	max_ammo = 100
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+
 /obj/item/gun/ballistic/automatic/machinegun/kulak
-	name = "machinegun Kulak"
+	name = "\improper Kulak .54"
 	desc = "many bullets"
+	icon = 'modular_vcg/modules/weapons/icons/weapons48x32.dmi'
 	lefthand_file = 'modular_vcg/modules/weapons/icons/lefthand.dmi'
 	righthand_file = 'modular_vcg/modules/weapons/icons/righthand.dmi'
 	worn_icon = 'modular_vcg/modules/weapons/icons/worn_guns.dmi'
@@ -145,7 +159,12 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 
+	accepted_magazine_type = /obj/item/ammo_box/magazine/darkpack762x51fal
+
 	spread = 100 // on the 100 m ->
+	can_suppress = TRUE
+
+	serial_type = ""
 
 	var/rof = 0.09 SECONDS // 650 RPM
 
