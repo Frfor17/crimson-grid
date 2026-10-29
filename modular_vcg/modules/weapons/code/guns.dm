@@ -130,14 +130,13 @@
 
 /obj/item/ammo_box/magazine/machinegun/kulak
 	name = "machinegun's box (7.62x54mm)"
-
-	icon = 'modular_darkpack/modules/weapons/icons/ammo.dmi'
-	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
-	icon_state = "308mag"
+	icon = 'modular_vcg/modules/weapons/icons/ammo.dmi'
+	ONFLOOR_ICON_HELPER('modular_vcg/modules/weapons/icons/ammo_onfloor.dmi')
+	icon_state = "pecheneg"
 
 	ammo_type = /obj/item/ammo_casing/vampire/c762x54mm
 
-	caliber = CALIBER_762NATO
+	caliber = CALIBER_762SOVIET
 	max_ammo = 100
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
