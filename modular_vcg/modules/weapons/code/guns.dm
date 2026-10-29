@@ -163,6 +163,8 @@
 	spread = 100 // on the 100 m ->
 	can_suppress = TRUE
 
+	mag_display = TRUE
+
 	serial_type = ""
 
 	var/rof = 0.09 SECONDS // 650 RPM
