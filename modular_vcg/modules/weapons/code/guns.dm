@@ -126,3 +126,23 @@
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MMPARA
 
+// Pulemet "Kulak"
+
+/obj/item/gun/ballistic/automatic/machinegun/kulak
+	name = "machinegun Kulak"
+	desc = "many bullets"
+	icon =
+	icon_state = "pecheneg"
+	inhand_icon_state = "pecheneg"
+	worn_icon_state = "pecheneg"
+	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
+
+	spread = 100 // on the 100 m ->
+
+	var/rof = 0.09 SECONDS // 650 RPM
+
+/obj/item/gun/ballistic/automatic/machinegun/kulak/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/automatic_fire, rof)
+
