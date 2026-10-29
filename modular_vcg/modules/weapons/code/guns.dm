@@ -131,10 +131,17 @@
 /obj/item/gun/ballistic/automatic/machinegun/kulak
 	name = "machinegun Kulak"
 	desc = "many bullets"
-	icon =
+	lefthand_file = 'modular_vcg/modules/weapons/icons/lefthand.dmi'
+    righthand_file = 'modular_vcg/modules/weapons/icons/righthand.dmi'
+	worn_icon = 'modular_vcg/modules/weapons/icons/worn_guns.dmi'
+	ONFLOOR_ICON_HELPER('modular_vcg/modules/weapons/icons/weapons_onfloor.dmi')
 	icon_state = "pecheneg"
 	inhand_icon_state = "pecheneg"
 	worn_icon_state = "pecheneg"
+
+	recoil = 6
+	fire_delay = 6
+
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 
