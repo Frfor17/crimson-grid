@@ -188,6 +188,13 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/space)
+"tp" = (
+/obj/item/table_clock{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/turf/open/space/basic,
+/area/space)
 "tI" = (
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder{
@@ -20216,7 +20223,7 @@ Ux
 Ux
 Ux
 Ux
-Ux
+tp
 Ux
 Ux
 Ux
